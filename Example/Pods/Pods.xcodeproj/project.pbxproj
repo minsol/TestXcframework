@@ -1,0 +1,1244 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CC3927D8D2F7DBC7457A44166AB13C /* FBSDKURLSessionTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8D08F124897C0A34B59C82CAA95598 /* FBSDKURLSessionTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		107379079A603C904010FE8EC7DDB3FD /* FBSDKLinking.h in Headers */ = {isa = PBXBuildFile; fileRef = 37ADCDF4D62C4ABB6F86A623D9800291 /* FBSDKLinking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243A5DC7B2808B109B4933DFDA355A16 /* FBSDKBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7FB2813A59FDA076C8C4D48B2D5AE3 /* FBSDKBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24416F27E10B79111B8BDD70C25C1242 /* FBSDKURLSessionProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A85A0A0DEAD758E08E98FED1CA30584 /* FBSDKURLSessionProviding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B44F55AA03FAFB5A683CBC8ED5F4104 /* FBSDKFileManaging.h in Headers */ = {isa = PBXBuildFile; fileRef = BE80D622A104675D5B342D13F6B8BA67 /* FBSDKFileManaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32DDDFD8A7AA5D5875892D70440BDAFF /* FBSDKInfoDictionaryProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B41C72F75708C9B7E9B874444D6F029 /* FBSDKInfoDictionaryProviding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		351B0A2DBEDEDAF2C09DAEA2C3D3F698 /* TestXcframework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A02E73F877273CF764B2BD39FF27C99C /* TestXcframework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35708D1452E4DEFE9643FED3A37DBB2E /* FBSDKLibAnalyzer.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D6E23D1B650BCC0210ADA34AA252F4 /* FBSDKLibAnalyzer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E5ADC39AC7AFBDDDEE45E33A210391A /* TestXcframework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1787D103B98CEEF0565C379F8154D19E /* TestXcframework-dummy.m */; };
+		4B64C310B08901294AA950E5AEB533E9 /* FBSDKBasicUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 28394990A9BCF775E04F22D5C7F978E4 /* FBSDKBasicUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56C1D48175FD6F687EE4900634F2C666 /* FBSDKCrashHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDA282691BC8963665F87A513AF774F /* FBSDKCrashHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5901B07FF6805C3235AABA79D4842EE2 /* Pods-TestXcframework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A51DD56162E51450FD282CA49BA4E0B6 /* Pods-TestXcframework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65D2BE1563C74EA8AC4BB6FFC18F7E31 /* Pods-TestXcframework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 756EC70B319CFD3A779B58144E57335C /* Pods-TestXcframework_Tests-dummy.m */; };
+		6DE93CE767681567167FB87E160BDF09 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F02DA32183E6E85FA07B171E38B21D /* ReplaceMe.m */; };
+		71200549C3B68E23ED24C0B74620220D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		78859190BC9D5C19A5FF7EA0DAB61530 /* FBSDKTypeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 7896C2A0F3695FB269347782E68AFDE1 /* FBSDKTypeUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8407AC2E2E1D71ADF5E5EDB62968A8BF /* FBSDKCrashObserving.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D35E715C6D994AAAFBE9B199DDE38B /* FBSDKCrashObserving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DBCB57C5BA1B46D3DF40D11E8EDF031 /* FBSDKFileDataExtracting.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FE47B0B2F78C0D9256EB91AB4F8071 /* FBSDKFileDataExtracting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA41D242585CBFD6DCAEDF153450896 /* Pods-TestXcframework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8035CC6BC93AA7E0A5A07D358E76997A /* Pods-TestXcframework_Example-dummy.m */; };
+		C484D5597678688570FEC7C61625286E /* FBSDKCoreKit_Basics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0200FCE8ADD7CE652990DEF58BF52D10 /* FBSDKCoreKit_Basics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D201749117F37FFB77E4A865C48D9534 /* Pods-TestXcframework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4874ED4D0C1F4E4CEE3F9C05304254DE /* Pods-TestXcframework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5B1C43E015C0ABAA04F874B047C33BF /* FBSDKCrashHandlerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0EEC4A8925085B66AFAF4F86ECCF7D /* FBSDKCrashHandlerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC318CACF34E72320E49BBD4E2F6C30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F30BEB5760DC79DC4C966E6B0CD11B32 /* FBSDKURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = FB20D3673CC9E7B4AE712040D89FE989 /* FBSDKURLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F38B164526455EE39C3BE256C1A80CA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F51A11850321911EF9CA70931E782F25 /* FBSDKNetworkTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C3373FAC282E4DD92BE8A3488DE490 /* FBSDKNetworkTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDE472CEE0910BCC18D3F6FB4F7F3FE /* FBSDKDataPersisting.h in Headers */ = {isa = PBXBuildFile; fileRef = D65ED2AD7708BE34F8FC9AB33EC38947 /* FBSDKDataPersisting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B00A1F7DF69459563C1D8A796D57553E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A86E92DBFCBEEEC03344C5646C85AB20;
+			remoteInfo = TestXcframework;
+		};
+		C1D55EDF0434AC48B0C0AF63817B46E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69E294127B05BFCEAAF6B6E076C30224;
+			remoteInfo = "Pods-TestXcframework_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DEBDE8C719AD7DE58A30A278F5CC09 /* FBSDKLibAnalyzer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKLibAnalyzer.h; sourceTree = "<group>"; };
+		0200FCE8ADD7CE652990DEF58BF52D10 /* FBSDKCoreKit_Basics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCoreKit_Basics.h; sourceTree = "<group>"; };
+		0452378313A648CC9D5CF713CB5AA766 /* Pods-TestXcframework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestXcframework_Tests-Info.plist"; sourceTree = "<group>"; };
+		05E3BA8F99A7E943AECE25A90375E5BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		08AB3468413D60DF5F68FFD9A532B5EF /* FBSDKNetworkTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKNetworkTask.h; sourceTree = "<group>"; };
+		08D6E23D1B650BCC0210ADA34AA252F4 /* FBSDKLibAnalyzer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKLibAnalyzer.h; sourceTree = "<group>"; };
+		0A9E5A8EA0888F1C3A361EEFF7B97491 /* FBSDKDataPersisting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKDataPersisting.h; sourceTree = "<group>"; };
+		138450AA5E1EF7E6DCD3A2A3628A36D1 /* Pods-TestXcframework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestXcframework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1787D103B98CEEF0565C379F8154D19E /* TestXcframework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestXcframework-dummy.m"; sourceTree = "<group>"; };
+		190A6797B0D210CBB3363414680AFA62 /* FBSDKNetworkTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKNetworkTask.h; sourceTree = "<group>"; };
+		1A85A0A0DEAD758E08E98FED1CA30584 /* FBSDKURLSessionProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSessionProviding.h; sourceTree = "<group>"; };
+		1AF56FB55115343A5D23009A1C6BDDBA /* FBSDKBasicUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKBasicUtility.h; sourceTree = "<group>"; };
+		1B9C5A258C29F3AFD082BB61A3E0C611 /* FBSDKURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSession.h; sourceTree = "<group>"; };
+		1EB61378899BEC0B8D5F67FA22BD9B1C /* TestXcframework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestXcframework.release.xcconfig; sourceTree = "<group>"; };
+		20FCC203F2E57EB55F7F7BEE9E692E37 /* FBSDKLinking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKLinking.h; sourceTree = "<group>"; };
+		21E1AE8526002AB2817F8C7517F1F8FD /* FBSDKCrashHandlerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashHandlerProtocol.h; sourceTree = "<group>"; };
+		2243538C883391691925A29E45F12E4D /* TestXcframework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestXcframework.modulemap; sourceTree = "<group>"; };
+		260ED5EFC4927F69D534632120766DB2 /* FBSDKBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKBase64.h; sourceTree = "<group>"; };
+		262165DDD027A0F9F4F302E8B7C25AA1 /* FBSDKBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKBase64.h; sourceTree = "<group>"; };
+		27799959AE7AC2996BB923A29C5AC215 /* FBSDKLinking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKLinking.h; sourceTree = "<group>"; };
+		28394990A9BCF775E04F22D5C7F978E4 /* FBSDKBasicUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKBasicUtility.h; sourceTree = "<group>"; };
+		28B48552D4F2DF2B4224F99FDED4082E /* FBSDKDataPersisting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKDataPersisting.h; sourceTree = "<group>"; };
+		2C6376982D0ABDC1BDBF8D37F4481DD6 /* FBSDKURLSessionTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSessionTask.h; sourceTree = "<group>"; };
+		339CD75AB02BBB3ADD82F4616E4D9D01 /* FBSDKFileDataExtracting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKFileDataExtracting.h; sourceTree = "<group>"; };
+		34C2C3B09C172291CC2F38B1E4649782 /* FBSDKCrashHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashHandler.h; sourceTree = "<group>"; };
+		37ADCDF4D62C4ABB6F86A623D9800291 /* FBSDKLinking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKLinking.h; sourceTree = "<group>"; };
+		3A15F4548D87C167B26F119935DF906F /* FBSDKFileDataExtracting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKFileDataExtracting.h; sourceTree = "<group>"; };
+		419FD97341CC8C90ED1914B291A65C2E /* FBSDKCrashHandlerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashHandlerProtocol.h; sourceTree = "<group>"; };
+		44B3C9BBDDC50DA2C9B69F8C92F71B0E /* FBSDKCrashHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashHandler.h; sourceTree = "<group>"; };
+		4688CD4AD3892ED819AC1DB79E981492 /* FBSDKCrashObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashObserving.h; sourceTree = "<group>"; };
+		475EC46A3102A7B49D807D25F6B27EC9 /* FBSDKCrashHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashHandler.h; sourceTree = "<group>"; };
+		47D46FF9B7EE4B34491B30D4ABF0FA24 /* FBSDKBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKBase64.h; sourceTree = "<group>"; };
+		4874ED4D0C1F4E4CEE3F9C05304254DE /* Pods-TestXcframework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestXcframework_Example-umbrella.h"; sourceTree = "<group>"; };
+		4B41C72F75708C9B7E9B874444D6F029 /* FBSDKInfoDictionaryProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKInfoDictionaryProviding.h; sourceTree = "<group>"; };
+		4F7C0D8FA20CCF4F6DF314575566DE1D /* FBSDKLibAnalyzer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKLibAnalyzer.h; sourceTree = "<group>"; };
+		50AC37FE8D9EAC06B26E91366ED77307 /* FBSDKInfoDictionaryProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKInfoDictionaryProviding.h; sourceTree = "<group>"; };
+		527F23F9C735CCFA541301040C960BBE /* Pods-TestXcframework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestXcframework_Example.modulemap"; sourceTree = "<group>"; };
+		52F64CDF36BB8EC17705DAE6ECF7D692 /* FBSDKLinking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKLinking.h; sourceTree = "<group>"; };
+		55EC6A53BAB6F55EFA8CC2C06433AA01 /* FBSDKTypeUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKTypeUtility.h; sourceTree = "<group>"; };
+		5B391F9B5293799C2313D323F222E8BC /* FBSDKCrashHandlerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashHandlerProtocol.h; sourceTree = "<group>"; };
+		5C94E68FF01539A6EAD01299311C9DC3 /* Pods-TestXcframework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestXcframework_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5D8D08F124897C0A34B59C82CAA95598 /* FBSDKURLSessionTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSessionTask.h; sourceTree = "<group>"; };
+		5F0EEC4A8925085B66AFAF4F86ECCF7D /* FBSDKCrashHandlerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashHandlerProtocol.h; sourceTree = "<group>"; };
+		6670A033BD39DA7F4D4D35CC6071FB72 /* FBSDKURLSessionTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSessionTask.h; sourceTree = "<group>"; };
+		6A7FB2813A59FDA076C8C4D48B2D5AE3 /* FBSDKBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKBase64.h; sourceTree = "<group>"; };
+		6DFB6EB035B9F9BFF4C4E03350B88737 /* FBSDKURLSessionProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSessionProviding.h; sourceTree = "<group>"; };
+		6F790C0C14BD8A7519F7F45EE309C777 /* FBSDKFileManaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKFileManaging.h; sourceTree = "<group>"; };
+		6F9AD8E650097FF681D0284F317F5F82 /* FBSDKCoreKit_Basics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCoreKit_Basics.h; sourceTree = "<group>"; };
+		70B888F0B33EB9CC6497969CB2AA791A /* FBSDKNetworkTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKNetworkTask.h; sourceTree = "<group>"; };
+		70C01248B5F22F05875F1907511B0DCA /* FBSDKBasicUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKBasicUtility.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		731A76D6B06D15E6CACAA689B04AAF51 /* Pods-TestXcframework_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestXcframework_Tests"; path = Pods_TestXcframework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		756EC70B319CFD3A779B58144E57335C /* Pods-TestXcframework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestXcframework_Tests-dummy.m"; sourceTree = "<group>"; };
+		7607816B4C2CF42BACFF094C5E62025E /* FBSDKBasicUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKBasicUtility.h; sourceTree = "<group>"; };
+		77FC664B9DBD267AE98DA24372FC72A2 /* FBSDKFileManaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKFileManaging.h; sourceTree = "<group>"; };
+		7896C2A0F3695FB269347782E68AFDE1 /* FBSDKTypeUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKTypeUtility.h; sourceTree = "<group>"; };
+		79FAE59E2A2335E47EEB6E52C2D83F74 /* FBSDKFileDataExtracting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKFileDataExtracting.h; sourceTree = "<group>"; };
+		7D2F03DE45FE430F10F9CF15B7080F82 /* Pods-TestXcframework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestXcframework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8035CC6BC93AA7E0A5A07D358E76997A /* Pods-TestXcframework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestXcframework_Example-dummy.m"; sourceTree = "<group>"; };
+		811D9036F7AEDD2F3238760C8E32A2C3 /* Pods-TestXcframework_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestXcframework_Example"; path = Pods_TestXcframework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8144A3997788CFA5048B71BE2E56E0EB /* FBSDKFileManaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKFileManaging.h; sourceTree = "<group>"; };
+		8988C99F0C7D4B7ADDDCBE8E3DF71E01 /* TestXcframework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestXcframework; path = TestXcframework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9002E98CB0FD831DED5569EE197FEF7E /* TestXcframework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestXcframework.debug.xcconfig; sourceTree = "<group>"; };
+		90C3373FAC282E4DD92BE8A3488DE490 /* FBSDKNetworkTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKNetworkTask.h; sourceTree = "<group>"; };
+		926CD8CDB2E2C44F56CA3C038400F431 /* FBSDKCrashObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashObserving.h; sourceTree = "<group>"; };
+		92D35E715C6D994AAAFBE9B199DDE38B /* FBSDKCrashObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashObserving.h; sourceTree = "<group>"; };
+		93BB407695FB4C10A7C10649F0A56002 /* FBSDKLinking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKLinking.h; sourceTree = "<group>"; };
+		9A2B7A4F7EB4BC2F82FF588CE507012E /* FBSDKDataPersisting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKDataPersisting.h; sourceTree = "<group>"; };
+		9B9291C378FC0418A11074BB75870A7C /* TestXcframework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestXcframework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD6BD5E2AB4C1BA2D516F094503B6AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9FDA282691BC8963665F87A513AF774F /* FBSDKCrashHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashHandler.h; sourceTree = "<group>"; };
+		A02E73F877273CF764B2BD39FF27C99C /* TestXcframework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestXcframework-umbrella.h"; sourceTree = "<group>"; };
+		A377EAF01766948A9F7462062099DE17 /* FBSDKInfoDictionaryProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKInfoDictionaryProviding.h; sourceTree = "<group>"; };
+		A43E0FDA9C4E6BB9527BDD253BA19478 /* FBSDKURLSessionTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSessionTask.h; sourceTree = "<group>"; };
+		A51DD56162E51450FD282CA49BA4E0B6 /* Pods-TestXcframework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestXcframework_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A6A25A3398C39A48480A072079346215 /* FBSDKURLSessionProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSessionProviding.h; sourceTree = "<group>"; };
+		A7252EFEAFFF2D55F28FD198356A8273 /* FBSDKBasicUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKBasicUtility.h; sourceTree = "<group>"; };
+		AA90974BEA5C22BC6F6E3194ACAEDA8E /* FBSDKBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKBase64.h; sourceTree = "<group>"; };
+		AB5817C81BFE508868A514C11899F6F5 /* TestXcframework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestXcframework-Info.plist"; sourceTree = "<group>"; };
+		B4284AD78662FF52DBDC0A7E9F79911A /* FBSDKCoreKit_Basics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCoreKit_Basics.h; sourceTree = "<group>"; };
+		B71A54A359E306D704F24497CD8235E3 /* FBSDKNetworkTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKNetworkTask.h; sourceTree = "<group>"; };
+		BCFB1FC0229D5F6A8F1D21CD692B360E /* FBSDKTypeUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKTypeUtility.h; sourceTree = "<group>"; };
+		BE80D622A104675D5B342D13F6B8BA67 /* FBSDKFileManaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKFileManaging.h; sourceTree = "<group>"; };
+		C1F6322E76410DF4F7ACE590EF3C96C3 /* FBSDKDataPersisting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKDataPersisting.h; sourceTree = "<group>"; };
+		C308E0AE179508B787E8AAC59BBFD6BA /* Pods-TestXcframework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestXcframework_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C39991801C7C54C33E51C023869A9425 /* Pods-TestXcframework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestXcframework_Example-Info.plist"; sourceTree = "<group>"; };
+		C6E4ABAACAAD9EE25E09AA7EA812D45B /* FBSDKInfoDictionaryProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKInfoDictionaryProviding.h; sourceTree = "<group>"; };
+		CBCA78B02E4A07CE67A073E3F43A59CF /* FBSDKCrashHandlerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashHandlerProtocol.h; sourceTree = "<group>"; };
+		CEE7EF0E87CAB7F4B4E93B0693BAA56D /* FBSDKURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSession.h; sourceTree = "<group>"; };
+		D2F02DA32183E6E85FA07B171E38B21D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TestXcframework/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		D65ED2AD7708BE34F8FC9AB33EC38947 /* FBSDKDataPersisting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKDataPersisting.h; sourceTree = "<group>"; };
+		D6AF9952751226C5BE64E897A0944C04 /* FBSDKURLSessionProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSessionProviding.h; sourceTree = "<group>"; };
+		D9D318EFA2DEC625E8743A1DD5E8CFF8 /* FBSDKCrashObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashObserving.h; sourceTree = "<group>"; };
+		DCC1E4C0C458CF99D0AED5D620107E7B /* FBSDKCoreKit_Basics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCoreKit_Basics.h; sourceTree = "<group>"; };
+		DCFD51539BB14710E92E6794934E5A3A /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBSDKCoreKit_Basics.xcframework; path = TestXcframework/Classes/FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
+		DD2B82B209C9FE99F4C708D43AEA2674 /* FBSDKURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSession.h; sourceTree = "<group>"; };
+		DED84561C5DA9D6F6F7AC646FAAC32A9 /* FBSDKLibAnalyzer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKLibAnalyzer.h; sourceTree = "<group>"; };
+		DF141F6B2F45BB23FDBE7574798A770B /* Pods-TestXcframework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestXcframework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0356F962659AEB1D55CF4B0FA699DD4 /* FBSDKCrashObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashObserving.h; sourceTree = "<group>"; };
+		E0B3DC669CA6FB9E388CB6C58C2108D5 /* TestXcframework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TestXcframework-xcframeworks.sh"; sourceTree = "<group>"; };
+		E16DE3F33904CD987C8CE75E20ADCEC9 /* FBSDKTypeUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKTypeUtility.h; sourceTree = "<group>"; };
+		E193BC64BC9D3C3D3AEF24A76A6D9547 /* FBSDKFileManaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKFileManaging.h; sourceTree = "<group>"; };
+		E231F47A86A9F817A343AF25848AFFFD /* FBSDKLibAnalyzer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKLibAnalyzer.h; sourceTree = "<group>"; };
+		E29A6B17CE65185BFCE3729546DDEE07 /* FBSDKCoreKit_Basics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCoreKit_Basics.h; sourceTree = "<group>"; };
+		E3C06081E3C3362D22EA57DA8B84267B /* FBSDKFileDataExtracting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKFileDataExtracting.h; sourceTree = "<group>"; };
+		E4C46495571540E94ECA95878A79E2A0 /* FBSDKInfoDictionaryProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKInfoDictionaryProviding.h; sourceTree = "<group>"; };
+		E613D43EE81877472EE356C6C2F9D7B9 /* Pods-TestXcframework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestXcframework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAA14C67E2C74F6CFC58910D60E1A167 /* TestXcframework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestXcframework-prefix.pch"; sourceTree = "<group>"; };
+		EAA890DA1AA988993C761DE08B76C2DC /* FBSDKTypeUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKTypeUtility.h; sourceTree = "<group>"; };
+		EBC0BAAD930D60B11EEC1EE3B0C9D2AA /* FBSDKCrashHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKCrashHandler.h; sourceTree = "<group>"; };
+		EC52B02304B4DC63B748F922F31C6857 /* FBSDKURLSessionProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSessionProviding.h; sourceTree = "<group>"; };
+		EC6D38E93B79E97B6C2A8E3ECF995525 /* Pods-TestXcframework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestXcframework_Tests.modulemap"; sourceTree = "<group>"; };
+		F278C4311E9D7A6BF0A18E758AA4CB7C /* Pods-TestXcframework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestXcframework_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F50764E102BE3D2F8429DEDDB6F8E883 /* Pods-TestXcframework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestXcframework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F6FE47B0B2F78C0D9256EB91AB4F8071 /* FBSDKFileDataExtracting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKFileDataExtracting.h; sourceTree = "<group>"; };
+		F737C32DF9E5BBB1C2465BFCDEAF945E /* FBSDKURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSession.h; sourceTree = "<group>"; };
+		FB20D3673CC9E7B4AE712040D89FE989 /* FBSDKURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSession.h; sourceTree = "<group>"; };
+		FFA724AFA2626AC6E7D6A7A0864C4AD0 /* Pods-TestXcframework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestXcframework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFA7CBF9E5DD7896841D6ECEE74C275A /* FBSDKURLSessionTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSessionTask.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DF572F2A89484C5B17112292EAFABE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38B164526455EE39C3BE256C1A80CA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61013B937B62787855EF81E75519E4FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71200549C3B68E23ED24C0B74620220D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FCDCD0A07B14CF9D3640CCD7A684BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC318CACF34E72320E49BBD4E2F6C30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033752667468D8FC561DB466EDE64F44 /* FBSDKCoreKit_Basics.framework */ = {
+			isa = PBXGroup;
+			children = (
+				2BCEC3150457A2CAAE56E8F7F7A2018A /* Headers */,
+			);
+			name = FBSDKCoreKit_Basics.framework;
+			path = FBSDKCoreKit_Basics.framework;
+			sourceTree = "<group>";
+		};
+		0A77CB42C92DC624BD5BAB36A0E55A12 /* ios-arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				033752667468D8FC561DB466EDE64F44 /* FBSDKCoreKit_Basics.framework */,
+			);
+			name = "ios-arm64";
+			path = "ios-arm64";
+			sourceTree = "<group>";
+		};
+		1E2E1755D8C59838F0A215095B51B69D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69B0CBDEF44CD0DD986CE4DD48A30E80 /* Pods-TestXcframework_Example */,
+				B6296EE429DAFCDE094F6F8FEA08B32D /* Pods-TestXcframework_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2A1D7C05FD2151CF593E9044C462C092 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD51539BB14710E92E6794934E5A3A /* FBSDKCoreKit_Basics.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BCEC3150457A2CAAE56E8F7F7A2018A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				47D46FF9B7EE4B34491B30D4ABF0FA24 /* FBSDKBase64.h */,
+				70C01248B5F22F05875F1907511B0DCA /* FBSDKBasicUtility.h */,
+				6F9AD8E650097FF681D0284F317F5F82 /* FBSDKCoreKit_Basics.h */,
+				EBC0BAAD930D60B11EEC1EE3B0C9D2AA /* FBSDKCrashHandler.h */,
+				21E1AE8526002AB2817F8C7517F1F8FD /* FBSDKCrashHandlerProtocol.h */,
+				926CD8CDB2E2C44F56CA3C038400F431 /* FBSDKCrashObserving.h */,
+				C1F6322E76410DF4F7ACE590EF3C96C3 /* FBSDKDataPersisting.h */,
+				339CD75AB02BBB3ADD82F4616E4D9D01 /* FBSDKFileDataExtracting.h */,
+				77FC664B9DBD267AE98DA24372FC72A2 /* FBSDKFileManaging.h */,
+				A377EAF01766948A9F7462062099DE17 /* FBSDKInfoDictionaryProviding.h */,
+				E231F47A86A9F817A343AF25848AFFFD /* FBSDKLibAnalyzer.h */,
+				52F64CDF36BB8EC17705DAE6ECF7D692 /* FBSDKLinking.h */,
+				70B888F0B33EB9CC6497969CB2AA791A /* FBSDKNetworkTask.h */,
+				BCFB1FC0229D5F6A8F1D21CD692B360E /* FBSDKTypeUtility.h */,
+				DD2B82B209C9FE99F4C708D43AEA2674 /* FBSDKURLSession.h */,
+				6DFB6EB035B9F9BFF4C4E03350B88737 /* FBSDKURLSessionProviding.h */,
+				2C6376982D0ABDC1BDBF8D37F4481DD6 /* FBSDKURLSessionTask.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		2E78DF7F5C0FDA1B51FC5A613B392346 /* FBSDKCoreKit_Basics.xcframework */ = {
+			isa = PBXGroup;
+			children = (
+				0A77CB42C92DC624BD5BAB36A0E55A12 /* ios-arm64 */,
+				CC8FAE24DDEFD45C023A2655C4B41039 /* ios-arm64_x86_64-maccatalyst */,
+				7152C9590D902270E7C117DAD27C731E /* ios-arm64_x86_64-simulator */,
+				A6824BC0DD23D5878A3A95693AAC70A5 /* tvos-arm64 */,
+				3D7F6826A88E14E620F3016C25EC211E /* tvos-arm64_x86_64-simulator */,
+			);
+			name = FBSDKCoreKit_Basics.xcframework;
+			path = TestXcframework/Classes/FBSDKCoreKit_Basics.xcframework;
+			sourceTree = "<group>";
+		};
+		3D7F6826A88E14E620F3016C25EC211E /* tvos-arm64_x86_64-simulator */ = {
+			isa = PBXGroup;
+			children = (
+				E69956D65A3004B58850B436705FD98E /* FBSDKCoreKit_Basics.framework */,
+			);
+			name = "tvos-arm64_x86_64-simulator";
+			path = "tvos-arm64_x86_64-simulator";
+			sourceTree = "<group>";
+		};
+		3D901A72DE7BED167D5BD97DF7FD9DB5 /* FBSDKCoreKit_Basics.framework */ = {
+			isa = PBXGroup;
+			children = (
+				B32A17CC9BE859F95DA70F5BFB0FD11A /* Headers */,
+			);
+			name = FBSDKCoreKit_Basics.framework;
+			path = FBSDKCoreKit_Basics.framework;
+			sourceTree = "<group>";
+		};
+		3EB058BBC080752505DC1CECD8E50859 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2243538C883391691925A29E45F12E4D /* TestXcframework.modulemap */,
+				1787D103B98CEEF0565C379F8154D19E /* TestXcframework-dummy.m */,
+				AB5817C81BFE508868A514C11899F6F5 /* TestXcframework-Info.plist */,
+				EAA14C67E2C74F6CFC58910D60E1A167 /* TestXcframework-prefix.pch */,
+				A02E73F877273CF764B2BD39FF27C99C /* TestXcframework-umbrella.h */,
+				E0B3DC669CA6FB9E388CB6C58C2108D5 /* TestXcframework-xcframeworks.sh */,
+				9002E98CB0FD831DED5569EE197FEF7E /* TestXcframework.debug.xcconfig */,
+				1EB61378899BEC0B8D5F67FA22BD9B1C /* TestXcframework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TestXcframework";
+			sourceTree = "<group>";
+		};
+		4330241F997830AE6C5C24F9EC2AF3FD /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AA90974BEA5C22BC6F6E3194ACAEDA8E /* FBSDKBase64.h */,
+				7607816B4C2CF42BACFF094C5E62025E /* FBSDKBasicUtility.h */,
+				DCC1E4C0C458CF99D0AED5D620107E7B /* FBSDKCoreKit_Basics.h */,
+				44B3C9BBDDC50DA2C9B69F8C92F71B0E /* FBSDKCrashHandler.h */,
+				419FD97341CC8C90ED1914B291A65C2E /* FBSDKCrashHandlerProtocol.h */,
+				E0356F962659AEB1D55CF4B0FA699DD4 /* FBSDKCrashObserving.h */,
+				9A2B7A4F7EB4BC2F82FF588CE507012E /* FBSDKDataPersisting.h */,
+				3A15F4548D87C167B26F119935DF906F /* FBSDKFileDataExtracting.h */,
+				E193BC64BC9D3C3D3AEF24A76A6D9547 /* FBSDKFileManaging.h */,
+				E4C46495571540E94ECA95878A79E2A0 /* FBSDKInfoDictionaryProviding.h */,
+				4F7C0D8FA20CCF4F6DF314575566DE1D /* FBSDKLibAnalyzer.h */,
+				27799959AE7AC2996BB923A29C5AC215 /* FBSDKLinking.h */,
+				08AB3468413D60DF5F68FFD9A532B5EF /* FBSDKNetworkTask.h */,
+				E16DE3F33904CD987C8CE75E20ADCEC9 /* FBSDKTypeUtility.h */,
+				CEE7EF0E87CAB7F4B4E93B0693BAA56D /* FBSDKURLSession.h */,
+				EC52B02304B4DC63B748F922F31C6857 /* FBSDKURLSessionProviding.h */,
+				6670A033BD39DA7F4D4D35CC6071FB72 /* FBSDKURLSessionTask.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		54D493FEE8FFD92F355762ED837742A2 /* TestXcframework */ = {
+			isa = PBXGroup;
+			children = (
+				D2F02DA32183E6E85FA07B171E38B21D /* ReplaceMe.m */,
+				2E78DF7F5C0FDA1B51FC5A613B392346 /* FBSDKCoreKit_Basics.xcframework */,
+				2A1D7C05FD2151CF593E9044C462C092 /* Frameworks */,
+				617E3EE7E402746506969E279AE73E33 /* Pod */,
+				3EB058BBC080752505DC1CECD8E50859 /* Support Files */,
+			);
+			name = TestXcframework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		617E3EE7E402746506969E279AE73E33 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9FD6BD5E2AB4C1BA2D516F094503B6AB /* LICENSE */,
+				05E3BA8F99A7E943AECE25A90375E5BA /* README.md */,
+				9B9291C378FC0418A11074BB75870A7C /* TestXcframework.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		69B0CBDEF44CD0DD986CE4DD48A30E80 /* Pods-TestXcframework_Example */ = {
+			isa = PBXGroup;
+			children = (
+				527F23F9C735CCFA541301040C960BBE /* Pods-TestXcframework_Example.modulemap */,
+				138450AA5E1EF7E6DCD3A2A3628A36D1 /* Pods-TestXcframework_Example-acknowledgements.markdown */,
+				E613D43EE81877472EE356C6C2F9D7B9 /* Pods-TestXcframework_Example-acknowledgements.plist */,
+				8035CC6BC93AA7E0A5A07D358E76997A /* Pods-TestXcframework_Example-dummy.m */,
+				C308E0AE179508B787E8AAC59BBFD6BA /* Pods-TestXcframework_Example-frameworks.sh */,
+				C39991801C7C54C33E51C023869A9425 /* Pods-TestXcframework_Example-Info.plist */,
+				4874ED4D0C1F4E4CEE3F9C05304254DE /* Pods-TestXcframework_Example-umbrella.h */,
+				5C94E68FF01539A6EAD01299311C9DC3 /* Pods-TestXcframework_Example.debug.xcconfig */,
+				F278C4311E9D7A6BF0A18E758AA4CB7C /* Pods-TestXcframework_Example.release.xcconfig */,
+			);
+			name = "Pods-TestXcframework_Example";
+			path = "Target Support Files/Pods-TestXcframework_Example";
+			sourceTree = "<group>";
+		};
+		7152C9590D902270E7C117DAD27C731E /* ios-arm64_x86_64-simulator */ = {
+			isa = PBXGroup;
+			children = (
+				3D901A72DE7BED167D5BD97DF7FD9DB5 /* FBSDKCoreKit_Basics.framework */,
+			);
+			name = "ios-arm64_x86_64-simulator";
+			path = "ios-arm64_x86_64-simulator";
+			sourceTree = "<group>";
+		};
+		908408C1662C19F312C3D05F49A2973A /* FBSDKCoreKit_Basics.framework */ = {
+			isa = PBXGroup;
+			children = (
+				A64A35E4D2469D3536A72880332AEBBF /* Versions */,
+			);
+			name = FBSDKCoreKit_Basics.framework;
+			path = FBSDKCoreKit_Basics.framework;
+			sourceTree = "<group>";
+		};
+		91A537DBA7C152548F61985A124EA254 /* FBSDKCoreKit_Basics.framework */ = {
+			isa = PBXGroup;
+			children = (
+				4330241F997830AE6C5C24F9EC2AF3FD /* Headers */,
+			);
+			name = FBSDKCoreKit_Basics.framework;
+			path = FBSDKCoreKit_Basics.framework;
+			sourceTree = "<group>";
+		};
+		A64A35E4D2469D3536A72880332AEBBF /* Versions */ = {
+			isa = PBXGroup;
+			children = (
+				C790C88C4999779CDA23296BD01E7E8D /* A */,
+			);
+			name = Versions;
+			path = Versions;
+			sourceTree = "<group>";
+		};
+		A6824BC0DD23D5878A3A95693AAC70A5 /* tvos-arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				91A537DBA7C152548F61985A124EA254 /* FBSDKCoreKit_Basics.framework */,
+			);
+			name = "tvos-arm64";
+			path = "tvos-arm64";
+			sourceTree = "<group>";
+		};
+		B32A17CC9BE859F95DA70F5BFB0FD11A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				262165DDD027A0F9F4F302E8B7C25AA1 /* FBSDKBase64.h */,
+				A7252EFEAFFF2D55F28FD198356A8273 /* FBSDKBasicUtility.h */,
+				B4284AD78662FF52DBDC0A7E9F79911A /* FBSDKCoreKit_Basics.h */,
+				34C2C3B09C172291CC2F38B1E4649782 /* FBSDKCrashHandler.h */,
+				CBCA78B02E4A07CE67A073E3F43A59CF /* FBSDKCrashHandlerProtocol.h */,
+				4688CD4AD3892ED819AC1DB79E981492 /* FBSDKCrashObserving.h */,
+				28B48552D4F2DF2B4224F99FDED4082E /* FBSDKDataPersisting.h */,
+				E3C06081E3C3362D22EA57DA8B84267B /* FBSDKFileDataExtracting.h */,
+				6F790C0C14BD8A7519F7F45EE309C777 /* FBSDKFileManaging.h */,
+				50AC37FE8D9EAC06B26E91366ED77307 /* FBSDKInfoDictionaryProviding.h */,
+				00DEBDE8C719AD7DE58A30A278F5CC09 /* FBSDKLibAnalyzer.h */,
+				93BB407695FB4C10A7C10649F0A56002 /* FBSDKLinking.h */,
+				B71A54A359E306D704F24497CD8235E3 /* FBSDKNetworkTask.h */,
+				EAA890DA1AA988993C761DE08B76C2DC /* FBSDKTypeUtility.h */,
+				1B9C5A258C29F3AFD082BB61A3E0C611 /* FBSDKURLSession.h */,
+				D6AF9952751226C5BE64E897A0944C04 /* FBSDKURLSessionProviding.h */,
+				FFA7CBF9E5DD7896841D6ECEE74C275A /* FBSDKURLSessionTask.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		B6296EE429DAFCDE094F6F8FEA08B32D /* Pods-TestXcframework_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D38E93B79E97B6C2A8E3ECF995525 /* Pods-TestXcframework_Tests.modulemap */,
+				7D2F03DE45FE430F10F9CF15B7080F82 /* Pods-TestXcframework_Tests-acknowledgements.markdown */,
+				FFA724AFA2626AC6E7D6A7A0864C4AD0 /* Pods-TestXcframework_Tests-acknowledgements.plist */,
+				756EC70B319CFD3A779B58144E57335C /* Pods-TestXcframework_Tests-dummy.m */,
+				0452378313A648CC9D5CF713CB5AA766 /* Pods-TestXcframework_Tests-Info.plist */,
+				A51DD56162E51450FD282CA49BA4E0B6 /* Pods-TestXcframework_Tests-umbrella.h */,
+				DF141F6B2F45BB23FDBE7574798A770B /* Pods-TestXcframework_Tests.debug.xcconfig */,
+				F50764E102BE3D2F8429DEDDB6F8E883 /* Pods-TestXcframework_Tests.release.xcconfig */,
+			);
+			name = "Pods-TestXcframework_Tests";
+			path = "Target Support Files/Pods-TestXcframework_Tests";
+			sourceTree = "<group>";
+		};
+		B9CC41A9812C1819B51E442DE0DDFC3C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54D493FEE8FFD92F355762ED837742A2 /* TestXcframework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C790C88C4999779CDA23296BD01E7E8D /* A */ = {
+			isa = PBXGroup;
+			children = (
+				EF20C506865155F48F4169F70F1DE917 /* Headers */,
+			);
+			name = A;
+			path = A;
+			sourceTree = "<group>";
+		};
+		CC8FAE24DDEFD45C023A2655C4B41039 /* ios-arm64_x86_64-maccatalyst */ = {
+			isa = PBXGroup;
+			children = (
+				908408C1662C19F312C3D05F49A2973A /* FBSDKCoreKit_Basics.framework */,
+			);
+			name = "ios-arm64_x86_64-maccatalyst";
+			path = "ios-arm64_x86_64-maccatalyst";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B9CC41A9812C1819B51E442DE0DDFC3C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EBE742236263C0EE94C71841573E3643 /* Products */,
+				1E2E1755D8C59838F0A215095B51B69D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E69956D65A3004B58850B436705FD98E /* FBSDKCoreKit_Basics.framework */ = {
+			isa = PBXGroup;
+			children = (
+				F5855300FAF5B32D89B4FBC3F0174582 /* Headers */,
+			);
+			name = FBSDKCoreKit_Basics.framework;
+			path = FBSDKCoreKit_Basics.framework;
+			sourceTree = "<group>";
+		};
+		EBE742236263C0EE94C71841573E3643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				811D9036F7AEDD2F3238760C8E32A2C3 /* Pods-TestXcframework_Example */,
+				731A76D6B06D15E6CACAA689B04AAF51 /* Pods-TestXcframework_Tests */,
+				8988C99F0C7D4B7ADDDCBE8E3DF71E01 /* TestXcframework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF20C506865155F48F4169F70F1DE917 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				260ED5EFC4927F69D534632120766DB2 /* FBSDKBase64.h */,
+				1AF56FB55115343A5D23009A1C6BDDBA /* FBSDKBasicUtility.h */,
+				E29A6B17CE65185BFCE3729546DDEE07 /* FBSDKCoreKit_Basics.h */,
+				475EC46A3102A7B49D807D25F6B27EC9 /* FBSDKCrashHandler.h */,
+				5B391F9B5293799C2313D323F222E8BC /* FBSDKCrashHandlerProtocol.h */,
+				D9D318EFA2DEC625E8743A1DD5E8CFF8 /* FBSDKCrashObserving.h */,
+				0A9E5A8EA0888F1C3A361EEFF7B97491 /* FBSDKDataPersisting.h */,
+				79FAE59E2A2335E47EEB6E52C2D83F74 /* FBSDKFileDataExtracting.h */,
+				8144A3997788CFA5048B71BE2E56E0EB /* FBSDKFileManaging.h */,
+				C6E4ABAACAAD9EE25E09AA7EA812D45B /* FBSDKInfoDictionaryProviding.h */,
+				DED84561C5DA9D6F6F7AC646FAAC32A9 /* FBSDKLibAnalyzer.h */,
+				20FCC203F2E57EB55F7F7BEE9E692E37 /* FBSDKLinking.h */,
+				190A6797B0D210CBB3363414680AFA62 /* FBSDKNetworkTask.h */,
+				55EC6A53BAB6F55EFA8CC2C06433AA01 /* FBSDKTypeUtility.h */,
+				F737C32DF9E5BBB1C2465BFCDEAF945E /* FBSDKURLSession.h */,
+				A6A25A3398C39A48480A072079346215 /* FBSDKURLSessionProviding.h */,
+				A43E0FDA9C4E6BB9527BDD253BA19478 /* FBSDKURLSessionTask.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		F5855300FAF5B32D89B4FBC3F0174582 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				6A7FB2813A59FDA076C8C4D48B2D5AE3 /* FBSDKBase64.h */,
+				28394990A9BCF775E04F22D5C7F978E4 /* FBSDKBasicUtility.h */,
+				0200FCE8ADD7CE652990DEF58BF52D10 /* FBSDKCoreKit_Basics.h */,
+				9FDA282691BC8963665F87A513AF774F /* FBSDKCrashHandler.h */,
+				5F0EEC4A8925085B66AFAF4F86ECCF7D /* FBSDKCrashHandlerProtocol.h */,
+				92D35E715C6D994AAAFBE9B199DDE38B /* FBSDKCrashObserving.h */,
+				D65ED2AD7708BE34F8FC9AB33EC38947 /* FBSDKDataPersisting.h */,
+				F6FE47B0B2F78C0D9256EB91AB4F8071 /* FBSDKFileDataExtracting.h */,
+				BE80D622A104675D5B342D13F6B8BA67 /* FBSDKFileManaging.h */,
+				4B41C72F75708C9B7E9B874444D6F029 /* FBSDKInfoDictionaryProviding.h */,
+				08D6E23D1B650BCC0210ADA34AA252F4 /* FBSDKLibAnalyzer.h */,
+				37ADCDF4D62C4ABB6F86A623D9800291 /* FBSDKLinking.h */,
+				90C3373FAC282E4DD92BE8A3488DE490 /* FBSDKNetworkTask.h */,
+				7896C2A0F3695FB269347782E68AFDE1 /* FBSDKTypeUtility.h */,
+				FB20D3673CC9E7B4AE712040D89FE989 /* FBSDKURLSession.h */,
+				1A85A0A0DEAD758E08E98FED1CA30584 /* FBSDKURLSessionProviding.h */,
+				5D8D08F124897C0A34B59C82CAA95598 /* FBSDKURLSessionTask.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A1584D0B4AED23254C5C89DED369A61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243A5DC7B2808B109B4933DFDA355A16 /* FBSDKBase64.h in Headers */,
+				243A5DC7B2808B109B4933DFDA355A16 /* FBSDKBase64.h in Headers */,
+				243A5DC7B2808B109B4933DFDA355A16 /* FBSDKBase64.h in Headers */,
+				243A5DC7B2808B109B4933DFDA355A16 /* FBSDKBase64.h in Headers */,
+				243A5DC7B2808B109B4933DFDA355A16 /* FBSDKBase64.h in Headers */,
+				4B64C310B08901294AA950E5AEB533E9 /* FBSDKBasicUtility.h in Headers */,
+				4B64C310B08901294AA950E5AEB533E9 /* FBSDKBasicUtility.h in Headers */,
+				4B64C310B08901294AA950E5AEB533E9 /* FBSDKBasicUtility.h in Headers */,
+				4B64C310B08901294AA950E5AEB533E9 /* FBSDKBasicUtility.h in Headers */,
+				4B64C310B08901294AA950E5AEB533E9 /* FBSDKBasicUtility.h in Headers */,
+				C484D5597678688570FEC7C61625286E /* FBSDKCoreKit_Basics.h in Headers */,
+				C484D5597678688570FEC7C61625286E /* FBSDKCoreKit_Basics.h in Headers */,
+				C484D5597678688570FEC7C61625286E /* FBSDKCoreKit_Basics.h in Headers */,
+				C484D5597678688570FEC7C61625286E /* FBSDKCoreKit_Basics.h in Headers */,
+				C484D5597678688570FEC7C61625286E /* FBSDKCoreKit_Basics.h in Headers */,
+				56C1D48175FD6F687EE4900634F2C666 /* FBSDKCrashHandler.h in Headers */,
+				56C1D48175FD6F687EE4900634F2C666 /* FBSDKCrashHandler.h in Headers */,
+				56C1D48175FD6F687EE4900634F2C666 /* FBSDKCrashHandler.h in Headers */,
+				56C1D48175FD6F687EE4900634F2C666 /* FBSDKCrashHandler.h in Headers */,
+				56C1D48175FD6F687EE4900634F2C666 /* FBSDKCrashHandler.h in Headers */,
+				D5B1C43E015C0ABAA04F874B047C33BF /* FBSDKCrashHandlerProtocol.h in Headers */,
+				D5B1C43E015C0ABAA04F874B047C33BF /* FBSDKCrashHandlerProtocol.h in Headers */,
+				D5B1C43E015C0ABAA04F874B047C33BF /* FBSDKCrashHandlerProtocol.h in Headers */,
+				D5B1C43E015C0ABAA04F874B047C33BF /* FBSDKCrashHandlerProtocol.h in Headers */,
+				D5B1C43E015C0ABAA04F874B047C33BF /* FBSDKCrashHandlerProtocol.h in Headers */,
+				8407AC2E2E1D71ADF5E5EDB62968A8BF /* FBSDKCrashObserving.h in Headers */,
+				8407AC2E2E1D71ADF5E5EDB62968A8BF /* FBSDKCrashObserving.h in Headers */,
+				8407AC2E2E1D71ADF5E5EDB62968A8BF /* FBSDKCrashObserving.h in Headers */,
+				8407AC2E2E1D71ADF5E5EDB62968A8BF /* FBSDKCrashObserving.h in Headers */,
+				8407AC2E2E1D71ADF5E5EDB62968A8BF /* FBSDKCrashObserving.h in Headers */,
+				FEDE472CEE0910BCC18D3F6FB4F7F3FE /* FBSDKDataPersisting.h in Headers */,
+				FEDE472CEE0910BCC18D3F6FB4F7F3FE /* FBSDKDataPersisting.h in Headers */,
+				FEDE472CEE0910BCC18D3F6FB4F7F3FE /* FBSDKDataPersisting.h in Headers */,
+				FEDE472CEE0910BCC18D3F6FB4F7F3FE /* FBSDKDataPersisting.h in Headers */,
+				FEDE472CEE0910BCC18D3F6FB4F7F3FE /* FBSDKDataPersisting.h in Headers */,
+				8DBCB57C5BA1B46D3DF40D11E8EDF031 /* FBSDKFileDataExtracting.h in Headers */,
+				8DBCB57C5BA1B46D3DF40D11E8EDF031 /* FBSDKFileDataExtracting.h in Headers */,
+				8DBCB57C5BA1B46D3DF40D11E8EDF031 /* FBSDKFileDataExtracting.h in Headers */,
+				8DBCB57C5BA1B46D3DF40D11E8EDF031 /* FBSDKFileDataExtracting.h in Headers */,
+				8DBCB57C5BA1B46D3DF40D11E8EDF031 /* FBSDKFileDataExtracting.h in Headers */,
+				2B44F55AA03FAFB5A683CBC8ED5F4104 /* FBSDKFileManaging.h in Headers */,
+				2B44F55AA03FAFB5A683CBC8ED5F4104 /* FBSDKFileManaging.h in Headers */,
+				2B44F55AA03FAFB5A683CBC8ED5F4104 /* FBSDKFileManaging.h in Headers */,
+				2B44F55AA03FAFB5A683CBC8ED5F4104 /* FBSDKFileManaging.h in Headers */,
+				2B44F55AA03FAFB5A683CBC8ED5F4104 /* FBSDKFileManaging.h in Headers */,
+				32DDDFD8A7AA5D5875892D70440BDAFF /* FBSDKInfoDictionaryProviding.h in Headers */,
+				32DDDFD8A7AA5D5875892D70440BDAFF /* FBSDKInfoDictionaryProviding.h in Headers */,
+				32DDDFD8A7AA5D5875892D70440BDAFF /* FBSDKInfoDictionaryProviding.h in Headers */,
+				32DDDFD8A7AA5D5875892D70440BDAFF /* FBSDKInfoDictionaryProviding.h in Headers */,
+				32DDDFD8A7AA5D5875892D70440BDAFF /* FBSDKInfoDictionaryProviding.h in Headers */,
+				35708D1452E4DEFE9643FED3A37DBB2E /* FBSDKLibAnalyzer.h in Headers */,
+				35708D1452E4DEFE9643FED3A37DBB2E /* FBSDKLibAnalyzer.h in Headers */,
+				35708D1452E4DEFE9643FED3A37DBB2E /* FBSDKLibAnalyzer.h in Headers */,
+				35708D1452E4DEFE9643FED3A37DBB2E /* FBSDKLibAnalyzer.h in Headers */,
+				35708D1452E4DEFE9643FED3A37DBB2E /* FBSDKLibAnalyzer.h in Headers */,
+				107379079A603C904010FE8EC7DDB3FD /* FBSDKLinking.h in Headers */,
+				107379079A603C904010FE8EC7DDB3FD /* FBSDKLinking.h in Headers */,
+				107379079A603C904010FE8EC7DDB3FD /* FBSDKLinking.h in Headers */,
+				107379079A603C904010FE8EC7DDB3FD /* FBSDKLinking.h in Headers */,
+				107379079A603C904010FE8EC7DDB3FD /* FBSDKLinking.h in Headers */,
+				F51A11850321911EF9CA70931E782F25 /* FBSDKNetworkTask.h in Headers */,
+				F51A11850321911EF9CA70931E782F25 /* FBSDKNetworkTask.h in Headers */,
+				F51A11850321911EF9CA70931E782F25 /* FBSDKNetworkTask.h in Headers */,
+				F51A11850321911EF9CA70931E782F25 /* FBSDKNetworkTask.h in Headers */,
+				F51A11850321911EF9CA70931E782F25 /* FBSDKNetworkTask.h in Headers */,
+				78859190BC9D5C19A5FF7EA0DAB61530 /* FBSDKTypeUtility.h in Headers */,
+				78859190BC9D5C19A5FF7EA0DAB61530 /* FBSDKTypeUtility.h in Headers */,
+				78859190BC9D5C19A5FF7EA0DAB61530 /* FBSDKTypeUtility.h in Headers */,
+				78859190BC9D5C19A5FF7EA0DAB61530 /* FBSDKTypeUtility.h in Headers */,
+				78859190BC9D5C19A5FF7EA0DAB61530 /* FBSDKTypeUtility.h in Headers */,
+				F30BEB5760DC79DC4C966E6B0CD11B32 /* FBSDKURLSession.h in Headers */,
+				F30BEB5760DC79DC4C966E6B0CD11B32 /* FBSDKURLSession.h in Headers */,
+				F30BEB5760DC79DC4C966E6B0CD11B32 /* FBSDKURLSession.h in Headers */,
+				F30BEB5760DC79DC4C966E6B0CD11B32 /* FBSDKURLSession.h in Headers */,
+				F30BEB5760DC79DC4C966E6B0CD11B32 /* FBSDKURLSession.h in Headers */,
+				24416F27E10B79111B8BDD70C25C1242 /* FBSDKURLSessionProviding.h in Headers */,
+				24416F27E10B79111B8BDD70C25C1242 /* FBSDKURLSessionProviding.h in Headers */,
+				24416F27E10B79111B8BDD70C25C1242 /* FBSDKURLSessionProviding.h in Headers */,
+				24416F27E10B79111B8BDD70C25C1242 /* FBSDKURLSessionProviding.h in Headers */,
+				24416F27E10B79111B8BDD70C25C1242 /* FBSDKURLSessionProviding.h in Headers */,
+				04CC3927D8D2F7DBC7457A44166AB13C /* FBSDKURLSessionTask.h in Headers */,
+				04CC3927D8D2F7DBC7457A44166AB13C /* FBSDKURLSessionTask.h in Headers */,
+				04CC3927D8D2F7DBC7457A44166AB13C /* FBSDKURLSessionTask.h in Headers */,
+				04CC3927D8D2F7DBC7457A44166AB13C /* FBSDKURLSessionTask.h in Headers */,
+				04CC3927D8D2F7DBC7457A44166AB13C /* FBSDKURLSessionTask.h in Headers */,
+				351B0A2DBEDEDAF2C09DAEA2C3D3F698 /* TestXcframework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C842A0E33EDF892CA79D1003D25C3B82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5901B07FF6805C3235AABA79D4842EE2 /* Pods-TestXcframework_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E56DC98FB6E7052284C1203C40822B35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D201749117F37FFB77E4A865C48D9534 /* Pods-TestXcframework_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6669CE7FE3A5A4F38C3F306935683F03 /* Pods-TestXcframework_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C48C9CAAC4A4885D6FB041514FD4656 /* Build configuration list for PBXNativeTarget "Pods-TestXcframework_Tests" */;
+			buildPhases = (
+				C842A0E33EDF892CA79D1003D25C3B82 /* Headers */,
+				7C190C867F156EDE2037E4FEAF3019BA /* Sources */,
+				61013B937B62787855EF81E75519E4FA /* Frameworks */,
+				7C8F6977CD9428415BDF63F5321016FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2761F6A81372D87CDDB24971ABDFD53D /* PBXTargetDependency */,
+			);
+			name = "Pods-TestXcframework_Tests";
+			productName = Pods_TestXcframework_Tests;
+			productReference = 731A76D6B06D15E6CACAA689B04AAF51 /* Pods-TestXcframework_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		69E294127B05BFCEAAF6B6E076C30224 /* Pods-TestXcframework_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD012360EAFDE478F89BC44DC954998 /* Build configuration list for PBXNativeTarget "Pods-TestXcframework_Example" */;
+			buildPhases = (
+				E56DC98FB6E7052284C1203C40822B35 /* Headers */,
+				234AA940B6C118D6C4B5DDB821851E22 /* Sources */,
+				C3FCDCD0A07B14CF9D3640CCD7A684BC /* Frameworks */,
+				B95CB56E23F6AFA933655BABA24333A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6393FD6F1DC85075AF79435B21AD441F /* PBXTargetDependency */,
+			);
+			name = "Pods-TestXcframework_Example";
+			productName = Pods_TestXcframework_Example;
+			productReference = 811D9036F7AEDD2F3238760C8E32A2C3 /* Pods-TestXcframework_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A86E92DBFCBEEEC03344C5646C85AB20 /* TestXcframework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEECB49BA9DEB803467FA864E1F91845 /* Build configuration list for PBXNativeTarget "TestXcframework" */;
+			buildPhases = (
+				4A1584D0B4AED23254C5C89DED369A61 /* Headers */,
+				2401E758371D1246FE443C33297ADC85 /* [CP] Copy XCFrameworks */,
+				36D5ED169E744845D50FE3DB09E12417 /* Sources */,
+				3DF572F2A89484C5B17112292EAFABE6 /* Frameworks */,
+				B562C6F0550C79327D2464D9C8A8D012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestXcframework;
+			productName = TestXcframework;
+			productReference = 8988C99F0C7D4B7ADDDCBE8E3DF71E01 /* TestXcframework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EBE742236263C0EE94C71841573E3643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69E294127B05BFCEAAF6B6E076C30224 /* Pods-TestXcframework_Example */,
+				6669CE7FE3A5A4F38C3F306935683F03 /* Pods-TestXcframework_Tests */,
+				A86E92DBFCBEEEC03344C5646C85AB20 /* TestXcframework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C8F6977CD9428415BDF63F5321016FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B562C6F0550C79327D2464D9C8A8D012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95CB56E23F6AFA933655BABA24333A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2401E758371D1246FE443C33297ADC85 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/TestXcframework/TestXcframework-xcframeworks.sh",
+				"${PODS_ROOT}/../../TestXcframework/Classes/FBSDKCoreKit_Basics.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TestXcframework/FBSDKCoreKit_Basics.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/TestXcframework/TestXcframework-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		234AA940B6C118D6C4B5DDB821851E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA41D242585CBFD6DCAEDF153450896 /* Pods-TestXcframework_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D5ED169E744845D50FE3DB09E12417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE93CE767681567167FB87E160BDF09 /* ReplaceMe.m in Sources */,
+				3E5ADC39AC7AFBDDDEE45E33A210391A /* TestXcframework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C190C867F156EDE2037E4FEAF3019BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D2BE1563C74EA8AC4BB6FFC18F7E31 /* Pods-TestXcframework_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2761F6A81372D87CDDB24971ABDFD53D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TestXcframework_Example";
+			target = 69E294127B05BFCEAAF6B6E076C30224 /* Pods-TestXcframework_Example */;
+			targetProxy = C1D55EDF0434AC48B0C0AF63817B46E6 /* PBXContainerItemProxy */;
+		};
+		6393FD6F1DC85075AF79435B21AD441F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TestXcframework;
+			target = A86E92DBFCBEEEC03344C5646C85AB20 /* TestXcframework */;
+			targetProxy = B00A1F7DF69459563C1D8A796D57553E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		010513000B6B4E70C19462396F67AC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F278C4311E9D7A6BF0A18E758AA4CB7C /* Pods-TestXcframework_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestXcframework_Example/Pods-TestXcframework_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestXcframework_Example/Pods-TestXcframework_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F4ACCB50BA6A40AE70BCEB4E6226D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50764E102BE3D2F8429DEDDB6F8E883 /* Pods-TestXcframework_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestXcframework_Tests/Pods-TestXcframework_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestXcframework_Tests/Pods-TestXcframework_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1ECBE8E9545414CE5D9442C6BACB6786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C94E68FF01539A6EAD01299311C9DC3 /* Pods-TestXcframework_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestXcframework_Example/Pods-TestXcframework_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestXcframework_Example/Pods-TestXcframework_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9E9D4196C139829706B6303AE57E3443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9002E98CB0FD831DED5569EE197FEF7E /* TestXcframework.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TestXcframework/TestXcframework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TestXcframework/TestXcframework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TestXcframework/TestXcframework.modulemap";
+				PRODUCT_MODULE_NAME = TestXcframework;
+				PRODUCT_NAME = TestXcframework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADD031DA2D1A2732664E1A21703C4F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF141F6B2F45BB23FDBE7574798A770B /* Pods-TestXcframework_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestXcframework_Tests/Pods-TestXcframework_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestXcframework_Tests/Pods-TestXcframework_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB608B064F685450EF5FEBD9EA6791EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB61378899BEC0B8D5F67FA22BD9B1C /* TestXcframework.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TestXcframework/TestXcframework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TestXcframework/TestXcframework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TestXcframework/TestXcframework.modulemap";
+				PRODUCT_MODULE_NAME = TestXcframework;
+				PRODUCT_NAME = TestXcframework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BD012360EAFDE478F89BC44DC954998 /* Build configuration list for PBXNativeTarget "Pods-TestXcframework_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECBE8E9545414CE5D9442C6BACB6786 /* Debug */,
+				010513000B6B4E70C19462396F67AC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C48C9CAAC4A4885D6FB041514FD4656 /* Build configuration list for PBXNativeTarget "Pods-TestXcframework_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD031DA2D1A2732664E1A21703C4F40 /* Debug */,
+				0F4ACCB50BA6A40AE70BCEB4E6226D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEECB49BA9DEB803467FA864E1F91845 /* Build configuration list for PBXNativeTarget "TestXcframework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E9D4196C139829706B6303AE57E3443 /* Debug */,
+				CB608B064F685450EF5FEBD9EA6791EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "TestXcframework",
+  "version": "0.1.0",
+  "summary": "A short description of TestXcframework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wanjian/TestXcframework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanjian": "wanjian@sparrowexpress.com"
+  },
+  "source": {
+    "git": "https://github.com/minsol/TestXcframework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "libraries": "z",
+  "source_files": "TestXcframework/Classes/**/*.{h,m,swift}",
+  "vendored_frameworks": "TestXcframework/Classes/FBSDKCoreKit_Basics.xcframework"
+}

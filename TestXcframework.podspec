@@ -29,9 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
-  s.source_files = 'TestXcframework/Classes/**/*'
-  
+  s.library = 'z'
+  s.source_files = 'TestXcframework/Classes/**/*.{h,m,swift}'
+  s.vendored_frameworks = 'TestXcframework/Classes/FBSDKCoreKit_Basics.xcframework'
   # s.resource_bundles = {
   #   'TestXcframework' => ['TestXcframework/Assets/*.png']
   # }

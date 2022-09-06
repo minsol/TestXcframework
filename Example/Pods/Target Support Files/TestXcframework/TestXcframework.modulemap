@@ -1,0 +1,6 @@
+framework module TestXcframework {
+  umbrella header "TestXcframework-umbrella.h"
+
+  export *
+  module * { export * }
+}

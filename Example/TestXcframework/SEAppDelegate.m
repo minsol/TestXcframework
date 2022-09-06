@@ -7,12 +7,13 @@
 //
 
 #import "SEAppDelegate.h"
+#import "FBSDKBase64.h"
 
 @implementation SEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    NSLog(@"%@",[FBSDKBase64 decodeAsData:@"123"]);
     return YES;
 }
 

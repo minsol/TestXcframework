@@ -1,0 +1,16 @@
+PODS:
+  - TestXcframework (0.1.0)
+
+DEPENDENCIES:
+  - TestXcframework (from `../`)
+
+EXTERNAL SOURCES:
+  TestXcframework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestXcframework: ff099ff8e43f61f5b216129fcf87066c0d9739d7
+
+PODFILE CHECKSUM: 53fc2e54714c4b5002be5cfe7f7a557e3c4106c7
+
+COCOAPODS: 1.11.3
